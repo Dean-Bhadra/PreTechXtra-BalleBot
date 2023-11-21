@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body 
+{
+  font-size: 100%;
+  background: linear-gradient(60deg, #2a2123 20%, #8f5b50 80%);
+}
+
+.header 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.header-image
+{
+  height: 80px;
+}
+
+.header-menu 
+{
+  display: flex;
+  gap: 35px;
+}
+
+.header-menu-links
+{
+  font-family: 'Sarala', sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px
+}
+
+.contents
+{
+  margin-bottom: 45px;
+  border-top: 0.4px solid #ffffff;
+}
+
+.contents-main 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contents-main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contents-main-text-title 
+{
+  font-family: 'Righteous', cursive;
+  font-weight: 450;
+  font-size: 70px;
+  color: #ebebeb;
+}
+
+.contents-main-text-subtitle 
+{
+  font-family: 'flex', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+
+.contents-main-text-button 
+{
+  background-color: #f8d9bf;
+  width: 195px;
+  height: 70px;
+  border: black;
+  box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #2a2123;
+}
+
+.contents-main-text-button:hover 
+{
+  background-color: rgba(223, 193, 168, 0.53);
+}
+
+.contents-main-image {
+  height: 450px;
+}
+
+.bottom-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.bottom-contents-title 
+{
+  border-top: 0.7px solid #ffffff;
+  padding-top: 48px;
+  font-family: 'Sarala', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff9f7;
+  margin-bottom: 16px;
+}
+
+.bottom-contents-paragraph 
+{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: #e7ccb7;
+}
+
+.footer {
+    padding: 10px;
+    }
+
+.footer-image {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
